@@ -11,6 +11,7 @@ namespace FileExtractor
         public string Name;
         public string File;
         public string Group;
+        public string Ext;
 
         public void Initialize()
         {
@@ -20,6 +21,7 @@ namespace FileExtractor
             Name = string.Empty;
             File = string.Empty;
             Group = string.Empty;
+            Ext = string.Empty;
         }
     }
 }

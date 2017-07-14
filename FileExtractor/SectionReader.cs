@@ -36,6 +36,9 @@ namespace FileExtractor
                         case "Group":
                             _dbProperty.Group = settings[key];
                             break;
+                        case "Ext":
+                            _dbProperty.Ext = settings[key];
+                            break;
                     }
                 }
             }

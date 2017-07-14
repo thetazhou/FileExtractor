@@ -40,9 +40,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DBProperty.cs" />
+    <Compile Include="FileType.cs" />
     <Compile Include="GetFileFromOracle.cs" />
     <Compile Include="GetFileFromSqlServer.cs" />
     <Compile Include="IGetFile.cs" />
+    <Compile Include="Loger.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SectionReader.cs" />
